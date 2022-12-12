@@ -1,9 +1,9 @@
 function pickRandomEpisode() {
-    // getJSON('http://stapi.co/api/v1/rest/episode/search')
-    //     .then(allEpisodes => {
-    //         let episode = allEpisodes.episodes.random()
-    //         $('#episode').text(`${episode.season.title}: ${episode.title}`)
-    //     })
+    getJSON('http://stapi.co/api/v1/rest/episode/search')
+        .then(allEpisodes => {
+            let episode = allEpisodes.episodes.random()
+            $('#episode').text(`${episode.season.title}: ${episode.title}`)
+        })
 }
 
 function getJSON(url) {
