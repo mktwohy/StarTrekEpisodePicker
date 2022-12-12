@@ -1,0 +1,1102 @@
+[
+  {
+    "uid": "EPMA0000000460",
+    "title": "The Immunity Syndrome",
+    "series": {
+      "uid": "SEMA0000097474",
+      "title": "Star Trek: The Original Series"
+    },
+    "season": {
+      "uid": "SAMA0000001733",
+      "title": "TOS Season 2"
+    },
+    "seasonNumber": 2,
+    "episodeNumber": 19,
+    "productionSerialNumber": "60348",
+    "featureLength": false,
+    "stardateFrom": 4307.1,
+    "stardateTo": 4307.1,
+    "yearFrom": 2268,
+    "yearTo": 2268,
+    "usAirDate": "1968-01-19",
+    "finalScriptDate": null
+  },
+  {
+    "uid": "EPMA0000001455",
+    "title": "Bloodlines",
+    "series": {
+      "uid": "SEMA0000062876",
+      "title": "Star Trek: The Next Generation"
+    },
+    "season": {
+      "uid": "SAMA0000001639",
+      "title": "TNG Season 7"
+    },
+    "seasonNumber": 7,
+    "episodeNumber": 22,
+    "productionSerialNumber": "40277-274",
+    "featureLength": false,
+    "stardateFrom": 47829.1,
+    "stardateTo": 47829.1,
+    "yearFrom": 2370,
+    "yearTo": 2370,
+    "usAirDate": "1994-05-02",
+    "finalScriptDate": null
+  },
+  {
+    "uid": "EPMA0000000499",
+    "title": "The Battle",
+    "series": {
+      "uid": "SEMA0000062876",
+      "title": "Star Trek: The Next Generation"
+    },
+    "season": {
+      "uid": "SAMA0000001633",
+      "title": "TNG Season 1"
+    },
+    "seasonNumber": 1,
+    "episodeNumber": 9,
+    "productionSerialNumber": "40271-110",
+    "featureLength": false,
+    "stardateFrom": 41723.9,
+    "stardateTo": 41723.9,
+    "yearFrom": 2364,
+    "yearTo": 2364,
+    "usAirDate": "1987-11-16",
+    "finalScriptDate": null
+  },
+  {
+    "uid": "EPMA0000001528",
+    "title": "Nemesis",
+    "series": {
+      "uid": "SEMA0000000029",
+      "title": "Star Trek: Voyager"
+    },
+    "season": {
+      "uid": "SAMA0000001745",
+      "title": "VOY Season 4"
+    },
+    "seasonNumber": 4,
+    "episodeNumber": 4,
+    "productionSerialNumber": "171",
+    "featureLength": false,
+    "stardateFrom": 51082.4,
+    "stardateTo": 51082.4,
+    "yearFrom": 2374,
+    "yearTo": 2374,
+    "usAirDate": "1997-09-24",
+    "finalScriptDate": null
+  },
+  {
+    "uid": "EPMA0000000044",
+    "title": "Similitude",
+    "series": {
+      "uid": "SEMA0000103435",
+      "title": "Star Trek: Enterprise"
+    },
+    "season": {
+      "uid": "SAMA0000001758",
+      "title": "ENT Season 3"
+    },
+    "seasonNumber": 3,
+    "episodeNumber": 10,
+    "productionSerialNumber": "062",
+    "featureLength": false,
+    "stardateFrom": null,
+    "stardateTo": null,
+    "yearFrom": 2153,
+    "yearTo": 2153,
+    "usAirDate": "2003-11-19",
+    "finalScriptDate": "2003-11-12"
+  },
+  {
+    "uid": "EPMA0000001471",
+    "title": "Faces",
+    "series": {
+      "uid": "SEMA0000000029",
+      "title": "Star Trek: Voyager"
+    },
+    "season": {
+      "uid": "SAMA0000001742",
+      "title": "VOY Season 1"
+    },
+    "seasonNumber": 1,
+    "episodeNumber": 14,
+    "productionSerialNumber": "114",
+    "featureLength": false,
+    "stardateFrom": 48784.2,
+    "stardateTo": 48784.2,
+    "yearFrom": 2371,
+    "yearTo": 2371,
+    "usAirDate": "1995-05-08",
+    "finalScriptDate": null
+  },
+  {
+    "uid": "EPMA0000000492",
+    "title": "The Savage Curtain",
+    "series": {
+      "uid": "SEMA0000097474",
+      "title": "Star Trek: The Original Series"
+    },
+    "season": {
+      "uid": "SAMA0000001734",
+      "title": "TOS Season 3"
+    },
+    "seasonNumber": 3,
+    "episodeNumber": 22,
+    "productionSerialNumber": "60043-77",
+    "featureLength": false,
+    "stardateFrom": 5906.4,
+    "stardateTo": 5906.4,
+    "yearFrom": 2269,
+    "yearTo": 2269,
+    "usAirDate": "1969-03-07",
+    "finalScriptDate": null
+  },
+  {
+    "uid": "EPMA0000000853",
+    "title": "Progress",
+    "series": {
+      "uid": "SEMA0000073238",
+      "title": "Star Trek: Deep Space Nine"
+    },
+    "season": {
+      "uid": "SAMA0000001735",
+      "title": "DS9 Season 1"
+    },
+    "seasonNumber": 1,
+    "episodeNumber": 15,
+    "productionSerialNumber": "40511-415",
+    "featureLength": false,
+    "stardateFrom": 46844.3,
+    "stardateTo": 46844.3,
+    "yearFrom": 2369,
+    "yearTo": 2369,
+    "usAirDate": "1993-05-09",
+    "finalScriptDate": null
+  },
+  {
+    "uid": "EPMA0000000516",
+    "title": "Conspiracy",
+    "series": {
+      "uid": "SEMA0000062876",
+      "title": "Star Trek: The Next Generation"
+    },
+    "season": {
+      "uid": "SAMA0000001633",
+      "title": "TNG Season 1"
+    },
+    "seasonNumber": 1,
+    "episodeNumber": 25,
+    "productionSerialNumber": "40271-125",
+    "featureLength": false,
+    "stardateFrom": 41775.5,
+    "stardateTo": 41780.2,
+    "yearFrom": 2364,
+    "yearTo": 2364,
+    "usAirDate": "1988-05-09",
+    "finalScriptDate": null
+  },
+  {
+    "uid": "EPMA0000000479",
+    "title": "Plato's Stepchildren",
+    "series": {
+      "uid": "SEMA0000097474",
+      "title": "Star Trek: The Original Series"
+    },
+    "season": {
+      "uid": "SAMA0000001734",
+      "title": "TOS Season 3"
+    },
+    "seasonNumber": 3,
+    "episodeNumber": 12,
+    "productionSerialNumber": "60043-67",
+    "featureLength": false,
+    "stardateFrom": 5784.2,
+    "stardateTo": 5784.2,
+    "yearFrom": 2268,
+    "yearTo": 2268,
+    "usAirDate": "1968-11-22",
+    "finalScriptDate": null
+  },
+  {
+    "uid": "EPMA0000001442",
+    "title": "Attached",
+    "series": {
+      "uid": "SEMA0000062876",
+      "title": "Star Trek: The Next Generation"
+    },
+    "season": {
+      "uid": "SAMA0000001639",
+      "title": "TNG Season 7"
+    },
+    "seasonNumber": 7,
+    "episodeNumber": 8,
+    "productionSerialNumber": "40277-260",
+    "featureLength": false,
+    "stardateFrom": 47304.2,
+    "stardateTo": 47304.2,
+    "yearFrom": 2370,
+    "yearTo": 2370,
+    "usAirDate": "1993-11-08",
+    "finalScriptDate": null
+  },
+  {
+    "uid": "EPMA0000006955",
+    "title": "More Tribbles, More Troubles",
+    "series": {
+      "uid": "SEMA0000034504",
+      "title": "Star Trek: The Animated Series"
+    },
+    "season": {
+      "uid": "SAMA0000000767",
+      "title": "TAS Season 1"
+    },
+    "seasonNumber": 1,
+    "episodeNumber": 5,
+    "productionSerialNumber": "22001",
+    "featureLength": false,
+    "stardateFrom": 5392.4,
+    "stardateTo": 5392.4,
+    "yearFrom": 2269,
+    "yearTo": 2269,
+    "usAirDate": "1973-10-06",
+    "finalScriptDate": null
+  },
+  {
+    "uid": "EPMA0000009713",
+    "title": "The Forge",
+    "series": {
+      "uid": "SEMA0000103435",
+      "title": "Star Trek: Enterprise"
+    },
+    "season": {
+      "uid": "SAMA0000003604",
+      "title": "ENT Season 4"
+    },
+    "seasonNumber": 4,
+    "episodeNumber": 7,
+    "productionSerialNumber": "083",
+    "featureLength": false,
+    "stardateFrom": null,
+    "stardateTo": null,
+    "yearFrom": 2137,
+    "yearTo": 2154,
+    "usAirDate": "2004-11-19",
+    "finalScriptDate": null
+  },
+  {
+    "uid": "EPMA0000000895",
+    "title": "Fascination",
+    "series": {
+      "uid": "SEMA0000073238",
+      "title": "Star Trek: Deep Space Nine"
+    },
+    "season": {
+      "uid": "SAMA0000001737",
+      "title": "DS9 Season 3"
+    },
+    "seasonNumber": 3,
+    "episodeNumber": 10,
+    "productionSerialNumber": "40513-456",
+    "featureLength": false,
+    "stardateFrom": null,
+    "stardateTo": null,
+    "yearFrom": 2371,
+    "yearTo": 2371,
+    "usAirDate": "1994-11-28",
+    "finalScriptDate": null
+  },
+  {
+    "uid": "EPMA0000006777",
+    "title": "Shore Leave",
+    "series": {
+      "uid": "SEMA0000097474",
+      "title": "Star Trek: The Original Series"
+    },
+    "season": {
+      "uid": "SAMA0000001732",
+      "title": "TOS Season 1"
+    },
+    "seasonNumber": 1,
+    "episodeNumber": 17,
+    "productionSerialNumber": "6149-17",
+    "featureLength": false,
+    "stardateFrom": 3025.3,
+    "stardateTo": 3025.3,
+    "yearFrom": 2267,
+    "yearTo": 2267,
+    "usAirDate": "1966-12-29",
+    "finalScriptDate": null
+  },
+  {
+    "uid": "EPMA0000000846",
+    "title": "Dax",
+    "series": {
+      "uid": "SEMA0000073238",
+      "title": "Star Trek: Deep Space Nine"
+    },
+    "season": {
+      "uid": "SAMA0000001735",
+      "title": "DS9 Season 1"
+    },
+    "seasonNumber": 1,
+    "episodeNumber": 8,
+    "productionSerialNumber": "40511-408",
+    "featureLength": false,
+    "stardateFrom": 46910.1,
+    "stardateTo": 46910.1,
+    "yearFrom": 2369,
+    "yearTo": 2369,
+    "usAirDate": "1993-02-14",
+    "finalScriptDate": null
+  },
+  {
+    "uid": "EPMA0000000475",
+    "title": "The Empath",
+    "series": {
+      "uid": "SEMA0000097474",
+      "title": "Star Trek: The Original Series"
+    },
+    "season": {
+      "uid": "SAMA0000001734",
+      "title": "TOS Season 3"
+    },
+    "seasonNumber": 3,
+    "episodeNumber": 8,
+    "productionSerialNumber": "60043-63",
+    "featureLength": false,
+    "stardateFrom": 5121.5,
+    "stardateTo": 5121.5,
+    "yearFrom": 2268,
+    "yearTo": 2268,
+    "usAirDate": "1968-12-06",
+    "finalScriptDate": null
+  },
+  {
+    "uid": "EPMA0000000451",
+    "title": "Mirror, Mirror",
+    "series": {
+      "uid": "SEMA0000097474",
+      "title": "Star Trek: The Original Series"
+    },
+    "season": {
+      "uid": "SAMA0000001733",
+      "title": "TOS Season 2"
+    },
+    "seasonNumber": 2,
+    "episodeNumber": 10,
+    "productionSerialNumber": "60339",
+    "featureLength": false,
+    "stardateFrom": null,
+    "stardateTo": null,
+    "yearFrom": 2267,
+    "yearTo": 2267,
+    "usAirDate": "1967-10-06",
+    "finalScriptDate": null
+  },
+  {
+    "uid": "EPMA0000001578",
+    "title": "Tinker Tenor Doctor Spy",
+    "series": {
+      "uid": "SEMA0000000029",
+      "title": "Star Trek: Voyager"
+    },
+    "season": {
+      "uid": "SAMA0000001754",
+      "title": "VOY Season 6"
+    },
+    "seasonNumber": 6,
+    "episodeNumber": 4,
+    "productionSerialNumber": "224",
+    "featureLength": false,
+    "stardateFrom": null,
+    "stardateTo": null,
+    "yearFrom": 2376,
+    "yearTo": 2376,
+    "usAirDate": "1999-10-13",
+    "finalScriptDate": "1999-07-09"
+  },
+  {
+    "uid": "EPMA0000000458",
+    "title": "The Gamesters of Triskelion",
+    "series": {
+      "uid": "SEMA0000097474",
+      "title": "Star Trek: The Original Series"
+    },
+    "season": {
+      "uid": "SAMA0000001733",
+      "title": "TOS Season 2"
+    },
+    "seasonNumber": 2,
+    "episodeNumber": 17,
+    "productionSerialNumber": "60346",
+    "featureLength": false,
+    "stardateFrom": 3211.7,
+    "stardateTo": 3211.7,
+    "yearFrom": 2268,
+    "yearTo": 2268,
+    "usAirDate": "1968-01-05",
+    "finalScriptDate": null
+  },
+  {
+    "uid": "EPMA0000001544",
+    "title": "The Killing Game, Part II",
+    "series": {
+      "uid": "SEMA0000000029",
+      "title": "Star Trek: Voyager"
+    },
+    "season": {
+      "uid": "SAMA0000001745",
+      "title": "VOY Season 4"
+    },
+    "seasonNumber": 4,
+    "episodeNumber": 19,
+    "productionSerialNumber": "187",
+    "featureLength": false,
+    "stardateFrom": 51715.2,
+    "stardateTo": 51715.2,
+    "yearFrom": 2374,
+    "yearTo": 2374,
+    "usAirDate": "1998-03-04",
+    "finalScriptDate": null
+  },
+  {
+    "uid": "EPMA0000000495",
+    "title": "The Last Outpost",
+    "series": {
+      "uid": "SEMA0000062876",
+      "title": "Star Trek: The Next Generation"
+    },
+    "season": {
+      "uid": "SAMA0000001633",
+      "title": "TNG Season 1"
+    },
+    "seasonNumber": 1,
+    "episodeNumber": 5,
+    "productionSerialNumber": "40271-107",
+    "featureLength": false,
+    "stardateFrom": 41386.4,
+    "stardateTo": 41386.4,
+    "yearFrom": 2364,
+    "yearTo": 2364,
+    "usAirDate": "1987-10-19",
+    "finalScriptDate": null
+  },
+  {
+    "uid": "EPMA0000003404",
+    "title": "The Seventh",
+    "series": {
+      "uid": "SEMA0000103435",
+      "title": "Star Trek: Enterprise"
+    },
+    "season": {
+      "uid": "SAMA0000001757",
+      "title": "ENT Season 2"
+    },
+    "seasonNumber": 2,
+    "episodeNumber": 7,
+    "productionSerialNumber": "033",
+    "featureLength": false,
+    "stardateFrom": null,
+    "stardateTo": null,
+    "yearFrom": 2152,
+    "yearTo": 2152,
+    "usAirDate": "2002-11-06",
+    "finalScriptDate": null
+  },
+  {
+    "uid": "EPMA0000083822",
+    "title": "Dark Frontier",
+    "series": {
+      "uid": "SEMA0000000029",
+      "title": "Star Trek: Voyager"
+    },
+    "season": {
+      "uid": "SAMA0000001753",
+      "title": "VOY Season 5"
+    },
+    "seasonNumber": 5,
+    "episodeNumber": 15,
+    "productionSerialNumber": "211",
+    "featureLength": true,
+    "stardateFrom": 52619.2,
+    "stardateTo": 52619.2,
+    "yearFrom": 2356,
+    "yearTo": 2375,
+    "usAirDate": "1999-02-17",
+    "finalScriptDate": null
+  },
+  {
+    "uid": "EPMA0000000970",
+    "title": "The Magnificent Ferengi",
+    "series": {
+      "uid": "SEMA0000073238",
+      "title": "Star Trek: Deep Space Nine"
+    },
+    "season": {
+      "uid": "SAMA0000001740",
+      "title": "DS9 Season 6"
+    },
+    "seasonNumber": 6,
+    "episodeNumber": 10,
+    "productionSerialNumber": "40510-534",
+    "featureLength": false,
+    "stardateFrom": null,
+    "stardateTo": null,
+    "yearFrom": 2374,
+    "yearTo": 2374,
+    "usAirDate": "1998-01-01",
+    "finalScriptDate": null
+  },
+  {
+    "uid": "EPMA0000000486",
+    "title": "The Lights of Zetar",
+    "series": {
+      "uid": "SEMA0000097474",
+      "title": "Star Trek: The Original Series"
+    },
+    "season": {
+      "uid": "SAMA0000001734",
+      "title": "TOS Season 3"
+    },
+    "seasonNumber": 3,
+    "episodeNumber": 18,
+    "productionSerialNumber": "60043-73",
+    "featureLength": false,
+    "stardateFrom": 5725.3,
+    "stardateTo": 5725.3,
+    "yearFrom": 2269,
+    "yearTo": 2269,
+    "usAirDate": "1969-01-31",
+    "finalScriptDate": null
+  },
+  {
+    "uid": "EPMA0000000880",
+    "title": "The Maquis, Part II",
+    "series": {
+      "uid": "SEMA0000073238",
+      "title": "Star Trek: Deep Space Nine"
+    },
+    "season": {
+      "uid": "SAMA0000001736",
+      "title": "DS9 Season 2"
+    },
+    "seasonNumber": 2,
+    "episodeNumber": 21,
+    "productionSerialNumber": "40512-441",
+    "featureLength": false,
+    "stardateFrom": null,
+    "stardateTo": null,
+    "yearFrom": 2370,
+    "yearTo": 2370,
+    "usAirDate": "1994-05-01",
+    "finalScriptDate": null
+  },
+  {
+    "uid": "EPMA0000006964",
+    "title": "Bem",
+    "series": {
+      "uid": "SEMA0000034504",
+      "title": "Star Trek: The Animated Series"
+    },
+    "season": {
+      "uid": "SAMA0000000768",
+      "title": "TAS Season 2"
+    },
+    "seasonNumber": 2,
+    "episodeNumber": 2,
+    "productionSerialNumber": "22018",
+    "featureLength": false,
+    "stardateFrom": 7403.6,
+    "stardateTo": 7403.6,
+    "yearFrom": 2270,
+    "yearTo": 2270,
+    "usAirDate": "1974-09-14",
+    "finalScriptDate": null
+  },
+  {
+    "uid": "EPMA0000001450",
+    "title": "Masks",
+    "series": {
+      "uid": "SEMA0000062876",
+      "title": "Star Trek: The Next Generation"
+    },
+    "season": {
+      "uid": "SAMA0000001639",
+      "title": "TNG Season 7"
+    },
+    "seasonNumber": 7,
+    "episodeNumber": 17,
+    "productionSerialNumber": "40277-269",
+    "featureLength": false,
+    "stardateFrom": 47615.2,
+    "stardateTo": 47615.2,
+    "yearFrom": 2370,
+    "yearTo": 2370,
+    "usAirDate": "1994-02-21",
+    "finalScriptDate": null
+  },
+  {
+    "uid": "EPMA0000000444",
+    "title": "Friday's Child",
+    "series": {
+      "uid": "SEMA0000097474",
+      "title": "Star Trek: The Original Series"
+    },
+    "season": {
+      "uid": "SAMA0000001733",
+      "title": "TOS Season 2"
+    },
+    "seasonNumber": 2,
+    "episodeNumber": 3,
+    "productionSerialNumber": "60332",
+    "featureLength": false,
+    "stardateFrom": 3497.2,
+    "stardateTo": 3497.2,
+    "yearFrom": 2267,
+    "yearTo": 2267,
+    "usAirDate": "1967-12-01",
+    "finalScriptDate": null
+  },
+  {
+    "uid": "EPMA0000033167",
+    "title": "Random Thoughts",
+    "series": {
+      "uid": "SEMA0000000029",
+      "title": "Star Trek: Voyager"
+    },
+    "season": {
+      "uid": "SAMA0000001745",
+      "title": "VOY Season 4"
+    },
+    "seasonNumber": 4,
+    "episodeNumber": 10,
+    "productionSerialNumber": "178",
+    "featureLength": false,
+    "stardateFrom": 51367.2,
+    "stardateTo": 51367.2,
+    "yearFrom": 2374,
+    "yearTo": 2374,
+    "usAirDate": "1997-11-19",
+    "finalScriptDate": null
+  },
+  {
+    "uid": "EPMA0000000454",
+    "title": "The Trouble with Tribbles",
+    "series": {
+      "uid": "SEMA0000097474",
+      "title": "Star Trek: The Original Series"
+    },
+    "season": {
+      "uid": "SAMA0000001733",
+      "title": "TOS Season 2"
+    },
+    "seasonNumber": 2,
+    "episodeNumber": 13,
+    "productionSerialNumber": "60342",
+    "featureLength": false,
+    "stardateFrom": 4523.3,
+    "stardateTo": 4523.3,
+    "yearFrom": 2268,
+    "yearTo": 2268,
+    "usAirDate": "1967-12-29",
+    "finalScriptDate": null
+  },
+  {
+    "uid": "EPMA0000003481",
+    "title": "Precious Cargo",
+    "series": {
+      "uid": "SEMA0000103435",
+      "title": "Star Trek: Enterprise"
+    },
+    "season": {
+      "uid": "SAMA0000001757",
+      "title": "ENT Season 2"
+    },
+    "seasonNumber": 2,
+    "episodeNumber": 11,
+    "productionSerialNumber": "037",
+    "featureLength": false,
+    "stardateFrom": null,
+    "stardateTo": null,
+    "yearFrom": 2152,
+    "yearTo": 2152,
+    "usAirDate": "2002-12-11",
+    "finalScriptDate": null
+  },
+  {
+    "uid": "EPMA0000001426",
+    "title": "Lessons",
+    "series": {
+      "uid": "SEMA0000062876",
+      "title": "Star Trek: The Next Generation"
+    },
+    "season": {
+      "uid": "SAMA0000001638",
+      "title": "TNG Season 6"
+    },
+    "seasonNumber": 6,
+    "episodeNumber": 19,
+    "productionSerialNumber": "40276-245",
+    "featureLength": false,
+    "stardateFrom": 46693.1,
+    "stardateTo": 46693.1,
+    "yearFrom": 2369,
+    "yearTo": 2369,
+    "usAirDate": "1993-04-05",
+    "finalScriptDate": null
+  },
+  {
+    "uid": "EPMA0000000134",
+    "title": "Balance of Terror",
+    "series": {
+      "uid": "SEMA0000097474",
+      "title": "Star Trek: The Original Series"
+    },
+    "season": {
+      "uid": "SAMA0000001732",
+      "title": "TOS Season 1"
+    },
+    "seasonNumber": 1,
+    "episodeNumber": 8,
+    "productionSerialNumber": "6149-09",
+    "featureLength": false,
+    "stardateFrom": 1709.1,
+    "stardateTo": 1709.1,
+    "yearFrom": 2266,
+    "yearTo": 2266,
+    "usAirDate": "1966-12-15",
+    "finalScriptDate": null
+  },
+  {
+    "uid": "EPMA0000001323",
+    "title": "Contagion",
+    "series": {
+      "uid": "SEMA0000062876",
+      "title": "Star Trek: The Next Generation"
+    },
+    "season": {
+      "uid": "SAMA0000001634",
+      "title": "TNG Season 2"
+    },
+    "seasonNumber": 2,
+    "episodeNumber": 11,
+    "productionSerialNumber": "40272-137",
+    "featureLength": false,
+    "stardateFrom": 42609.1,
+    "stardateTo": 42609.1,
+    "yearFrom": 2365,
+    "yearTo": 2365,
+    "usAirDate": "1989-03-20",
+    "finalScriptDate": null
+  },
+  {
+    "uid": "EPMA0000001517",
+    "title": "Darkling",
+    "series": {
+      "uid": "SEMA0000000029",
+      "title": "Star Trek: Voyager"
+    },
+    "season": {
+      "uid": "SAMA0000001744",
+      "title": "VOY Season 3"
+    },
+    "seasonNumber": 3,
+    "episodeNumber": 18,
+    "productionSerialNumber": "161",
+    "featureLength": false,
+    "stardateFrom": 50693.2,
+    "stardateTo": 50693.2,
+    "yearFrom": 2373,
+    "yearTo": 2373,
+    "usAirDate": "1997-02-19",
+    "finalScriptDate": "1996-12-03"
+  },
+  {
+    "uid": "EPMA0000000496",
+    "title": "Where No One Has Gone Before",
+    "series": {
+      "uid": "SEMA0000062876",
+      "title": "Star Trek: The Next Generation"
+    },
+    "season": {
+      "uid": "SAMA0000001633",
+      "title": "TNG Season 1"
+    },
+    "seasonNumber": 1,
+    "episodeNumber": 6,
+    "productionSerialNumber": "40271-106",
+    "featureLength": false,
+    "stardateFrom": 41263.1,
+    "stardateTo": 41263.1,
+    "yearFrom": 2364,
+    "yearTo": 2364,
+    "usAirDate": "1987-10-26",
+    "finalScriptDate": null
+  },
+  {
+    "uid": "EPMA0000001504",
+    "title": "False Profits",
+    "series": {
+      "uid": "SEMA0000000029",
+      "title": "Star Trek: Voyager"
+    },
+    "season": {
+      "uid": "SAMA0000001744",
+      "title": "VOY Season 3"
+    },
+    "seasonNumber": 3,
+    "episodeNumber": 5,
+    "productionSerialNumber": "144",
+    "featureLength": false,
+    "stardateFrom": 50074.3,
+    "stardateTo": 50074.3,
+    "yearFrom": 2373,
+    "yearTo": 2373,
+    "usAirDate": "1996-10-02",
+    "finalScriptDate": null
+  },
+  {
+    "uid": "EPMA0000001623",
+    "title": "Homestead",
+    "series": {
+      "uid": "SEMA0000000029",
+      "title": "Star Trek: Voyager"
+    },
+    "season": {
+      "uid": "SAMA0000001755",
+      "title": "VOY Season 7"
+    },
+    "seasonNumber": 7,
+    "episodeNumber": 23,
+    "productionSerialNumber": "269",
+    "featureLength": false,
+    "stardateFrom": 54868.6,
+    "stardateTo": 54868.6,
+    "yearFrom": 2378,
+    "yearTo": 2378,
+    "usAirDate": "2001-05-09",
+    "finalScriptDate": "2001-02-23"
+  },
+  {
+    "uid": "EPMA0000000484",
+    "title": "Whom Gods Destroy",
+    "series": {
+      "uid": "SEMA0000097474",
+      "title": "Star Trek: The Original Series"
+    },
+    "season": {
+      "uid": "SAMA0000001734",
+      "title": "TOS Season 3"
+    },
+    "seasonNumber": 3,
+    "episodeNumber": 16,
+    "productionSerialNumber": "60043-71",
+    "featureLength": false,
+    "stardateFrom": 5718.3,
+    "stardateTo": 5718.3,
+    "yearFrom": 2268,
+    "yearTo": 2268,
+    "usAirDate": "1969-01-03",
+    "finalScriptDate": null
+  },
+  {
+    "uid": "EPMA0000000517",
+    "title": "The Neutral Zone",
+    "series": {
+      "uid": "SEMA0000062876",
+      "title": "Star Trek: The Next Generation"
+    },
+    "season": {
+      "uid": "SAMA0000001633",
+      "title": "TNG Season 1"
+    },
+    "seasonNumber": 1,
+    "episodeNumber": 26,
+    "productionSerialNumber": "40271-126",
+    "featureLength": false,
+    "stardateFrom": 41986,
+    "stardateTo": 41986,
+    "yearFrom": 2364,
+    "yearTo": 2364,
+    "usAirDate": "1988-05-16",
+    "finalScriptDate": null
+  },
+  {
+    "uid": "EPMA0000001398",
+    "title": "The Outcast",
+    "series": {
+      "uid": "SEMA0000062876",
+      "title": "Star Trek: The Next Generation"
+    },
+    "season": {
+      "uid": "SAMA0000001637",
+      "title": "TNG Season 5"
+    },
+    "seasonNumber": 5,
+    "episodeNumber": 17,
+    "productionSerialNumber": "40275-217",
+    "featureLength": false,
+    "stardateFrom": 45614.6,
+    "stardateTo": 45614.6,
+    "yearFrom": 2368,
+    "yearTo": 2368,
+    "usAirDate": "1992-03-16",
+    "finalScriptDate": null
+  },
+  {
+    "uid": "EPMA0000001395",
+    "title": "Conundrum",
+    "series": {
+      "uid": "SEMA0000062876",
+      "title": "Star Trek: The Next Generation"
+    },
+    "season": {
+      "uid": "SAMA0000001637",
+      "title": "TNG Season 5"
+    },
+    "seasonNumber": 5,
+    "episodeNumber": 14,
+    "productionSerialNumber": "40275-214",
+    "featureLength": false,
+    "stardateFrom": 45494.2,
+    "stardateTo": 45494.2,
+    "yearFrom": 2368,
+    "yearTo": 2368,
+    "usAirDate": "1992-02-17",
+    "finalScriptDate": null
+  },
+  {
+    "uid": "EPMA0000001299",
+    "title": "Lower Decks",
+    "series": {
+      "uid": "SEMA0000062876",
+      "title": "Star Trek: The Next Generation"
+    },
+    "season": {
+      "uid": "SAMA0000001639",
+      "title": "TNG Season 7"
+    },
+    "seasonNumber": 7,
+    "episodeNumber": 15,
+    "productionSerialNumber": "40277-267",
+    "featureLength": false,
+    "stardateFrom": 47566.7,
+    "stardateTo": 47566.7,
+    "yearFrom": 2370,
+    "yearTo": 2370,
+    "usAirDate": "1994-02-07",
+    "finalScriptDate": null
+  },
+  {
+    "uid": "EPMA0000001606",
+    "title": "Inside Man",
+    "series": {
+      "uid": "SEMA0000000029",
+      "title": "Star Trek: Voyager"
+    },
+    "season": {
+      "uid": "SAMA0000001755",
+      "title": "VOY Season 7"
+    },
+    "seasonNumber": 7,
+    "episodeNumber": 6,
+    "productionSerialNumber": "252",
+    "featureLength": false,
+    "stardateFrom": 54208.3,
+    "stardateTo": 54208.3,
+    "yearFrom": 2377,
+    "yearTo": 2377,
+    "usAirDate": "2000-11-08",
+    "finalScriptDate": null
+  },
+  {
+    "uid": "EPMA0000001375",
+    "title": "Identity Crisis",
+    "series": {
+      "uid": "SEMA0000062876",
+      "title": "Star Trek: The Next Generation"
+    },
+    "season": {
+      "uid": "SAMA0000001636",
+      "title": "TNG Season 4"
+    },
+    "seasonNumber": 4,
+    "episodeNumber": 18,
+    "productionSerialNumber": "40274-192",
+    "featureLength": false,
+    "stardateFrom": 44664.5,
+    "stardateTo": 44664.5,
+    "yearFrom": 2367,
+    "yearTo": 2367,
+    "usAirDate": "1991-03-25",
+    "finalScriptDate": null
+  },
+  {
+    "uid": "EPMA0000003485",
+    "title": "Cease Fire",
+    "series": {
+      "uid": "SEMA0000103435",
+      "title": "Star Trek: Enterprise"
+    },
+    "season": {
+      "uid": "SAMA0000001757",
+      "title": "ENT Season 2"
+    },
+    "seasonNumber": 2,
+    "episodeNumber": 15,
+    "productionSerialNumber": "041",
+    "featureLength": false,
+    "stardateFrom": null,
+    "stardateTo": null,
+    "yearFrom": 2152,
+    "yearTo": 2152,
+    "usAirDate": "2003-02-12",
+    "finalScriptDate": null
+  },
+  {
+    "uid": "EPMA0000001004",
+    "title": "The Changing Face of Evil",
+    "series": {
+      "uid": "SEMA0000073238",
+      "title": "Star Trek: Deep Space Nine"
+    },
+    "season": {
+      "uid": "SAMA0000001741",
+      "title": "DS9 Season 7"
+    },
+    "seasonNumber": 7,
+    "episodeNumber": 20,
+    "productionSerialNumber": "40510-570",
+    "featureLength": false,
+    "stardateFrom": null,
+    "stardateTo": null,
+    "yearFrom": 2375,
+    "yearTo": 2375,
+    "usAirDate": "1999-04-28",
+    "finalScriptDate": null
+  },
+  {
+    "uid": "EPMA0000001425",
+    "title": "Starship Mine",
+    "series": {
+      "uid": "SEMA0000062876",
+      "title": "Star Trek: The Next Generation"
+    },
+    "season": {
+      "uid": "SAMA0000001638",
+      "title": "TNG Season 6"
+    },
+    "seasonNumber": 6,
+    "episodeNumber": 18,
+    "productionSerialNumber": "40276-244",
+    "featureLength": false,
+    "stardateFrom": 46682.4,
+    "stardateTo": 46682.4,
+    "yearFrom": 2369,
+    "yearTo": 2369,
+    "usAirDate": "1993-03-29",
+    "finalScriptDate": null
+  }
+]
