@@ -1,8 +1,11 @@
+import {test} from "./test";
+
 let sqlite3
 let allSeries
 let allEpisodes
 
 $(document).ready(() => {
+    test()
     Promise.all([
         $.getJSON('../src/db/json/series.json'),
         $.getJSON('../src/db/json/episodes.json')
