@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "jquery": "^3.6.1",
+    "node": "^19.2.0",
+    "node-fetch": "^3.3.0",
+    "sqlite3": "^5.1.4"
+  }
+}
