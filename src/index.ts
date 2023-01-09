@@ -1,11 +1,14 @@
-import {test} from "./test";
+import {random} from "./extensions/array-extensions";
 
 let sqlite3
-let allSeries
-let allEpisodes
+let allSeries: any[]
+let allEpisodes: any[]
+
+// extensions
+Array.prototype.random = function() { return random(this) }
+
 
 $(document).ready(() => {
-    test()
     Promise.all([
         $.getJSON('../src/db/json/series.json'),
         $.getJSON('../src/db/json/episodes.json')
@@ -16,6 +19,7 @@ $(document).ready(() => {
             populateSeries()
             showRandomEpisode()
         })
+    $('#btn_new_episode').on('click', showRandomEpisode)
 })
 
 function populateSeries() {
@@ -42,13 +46,13 @@ function getToggledSeries() {
         .map(item => getSeriesFromId(item.id))
 }
 
-function seriesIsSelected(uid) {
+function seriesIsSelected(uid: string) {
     let series = getSeriesFromId(uid)
     if (series === null) return false
     return series.title.includes("Star Trek:")
 }
 
-function getSeriesFromId(uid) {
+function getSeriesFromId(uid: string) {
     return allSeries.filter(s => s.uid === uid)[0] || null
 }
 
@@ -68,6 +72,3 @@ function showRandomEpisode() {
     $('#episode').text(`${episode.season.title}: ${episode.title}`)
 }
 
-Array.prototype.random = function () {
-    return this[Math.floor(Math.random() * this.length)]
-}
