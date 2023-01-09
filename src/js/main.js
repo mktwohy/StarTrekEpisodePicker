@@ -4,8 +4,8 @@ let allEpisodes
 
 $(document).ready(() => {
     Promise.all([
-        $.getJSON('json/series.json'),
-        $.getJSON('json/episodes.json')
+        $.getJSON('../src/db/json/series.json'),
+        $.getJSON('../src/db/json/episodes.json')
     ])
         .then((data) => {
             allSeries = data[0]
