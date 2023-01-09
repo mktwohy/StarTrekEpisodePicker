@@ -51,7 +51,7 @@ const sqlStatement = {
             episode.season.uid,
             episode.title,
             episode.episodeNumber,
-            episode.starDateFrom,
+            episode.stardateFrom,
             episode.stardateTo,
             episode.yearFrom,
             episode.yearTo,
