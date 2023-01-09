@@ -61,23 +61,15 @@ const sqlStatement = {
 }
 
 function main() {
-    let allSeries = getJSONSync(filePath.series_json)
-    let allEpisodes = getJSONSync(filePath.episodes_json)
-    let allSeasons = getJSONSync(filePath.seasons_json)
+    let series = getJSONSync(filePath.series_json)
+    let episodes = getJSONSync(filePath.episodes_json)
+    let seasons = getJSONSync(filePath.seasons_json)
 
     databaseRun(sqlStatement.clearTables.query)
-        .then(() =>
-            databaseRunForEach(sqlStatement.insertSeries, allSeries)
-        )
-        .then(() =>
-            databaseRunForEach(sqlStatement.insertSeason, allSeasons)
-        )
-        .then(() =>
-            databaseRunForEach(sqlStatement.insertEpisode, allEpisodes)
-        )
-        .catch((err) => {
-            console.log(err)
-        })
+        .then(() => databaseRunForEach(series, sqlStatement.insertSeries))
+        .then(() => databaseRunForEach(seasons, sqlStatement.insertSeason))
+        .then(() => databaseRunForEach(episodes, sqlStatement.insertEpisode))
+        .catch((err) => console.log(err))
 }
 
 function databaseRun(query, params=[]) {
@@ -93,8 +85,8 @@ function databaseRun(query, params=[]) {
     })
 }
 
-function databaseRunForEach(statement, paramList) {
-    return Promise.all(paramList.map(c =>
+function databaseRunForEach(cases, statement) {
+    return Promise.all(cases.map(c =>
         databaseRun(statement.query, statement.getParams(c))
     ))
 }
