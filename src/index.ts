@@ -1,10 +1,11 @@
 import {random} from "./extensions/array-extensions";
+import {StarTrekDatabase} from "./database";
 
-let sqlite3
 let allSeries: any[]
 let allEpisodes: any[]
+// const db = new StarTrekDatabase()
 
-// extensions
+// extension boilerplate
 Array.prototype.random = function() { return random(this) }
 
 
@@ -20,6 +21,8 @@ $(document).ready(() => {
             showRandomEpisode()
         })
     $('#btn_new_episode').on('click', showRandomEpisode)
+
+    // db.getAllEpisodes(5).then((episodes) => console.log(episodes))
 })
 
 function populateSeries() {
