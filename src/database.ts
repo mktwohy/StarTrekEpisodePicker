@@ -4,7 +4,7 @@ export class StarTrekDatabase {
     private series: Series[] = []
 
     constructor(onLoad: () => void) {
-        let path = '/src/db/json/'
+        let path = '/StarTrekEpisodePicker/src/db/json/'
         Promise.all([
             getJSON(path + 'series.json'),
             getJSON(path + 'seasons.json'),
