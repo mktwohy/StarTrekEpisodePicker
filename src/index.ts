@@ -1,38 +1,29 @@
-import {random} from "./extensions/array-extensions";
-import {StarTrekDatabase} from "./database";
+import {filterNotNull, random} from "./extensions/array-extensions";
+import {Episode, Series, StarTrekDatabase} from "./database";
 
-let allSeries: any[]
-let allEpisodes: any[]
-// const db = new StarTrekDatabase()
+const db = new StarTrekDatabase(
+    onload= () => {
+        populateSeries()
+        showRandomEpisode()
+    }
+)
 
 // extension boilerplate
 Array.prototype.random = function() { return random(this) }
+Array.prototype.filterNotNull = function() { return filterNotNull(this) }
 
 
 $(document).ready(() => {
-    Promise.all([
-        $.getJSON('../src/db/json/series.json'),
-        $.getJSON('../src/db/json/episodes.json')
-    ])
-        .then((data) => {
-            allSeries = data[0]
-            allEpisodes = data[1]
-            populateSeries()
-            showRandomEpisode()
-        })
     $('#btn_new_episode').on('click', showRandomEpisode)
-
-    // db.getAllEpisodes(5).then((episodes) => console.log(episodes))
 })
 
 function populateSeries() {
-    allSeries.sort((a, b) => a.productionStartYear - b.productionStartYear)
-
+    let series = db.getAllSeries()
     let seriesFilters = $('#series_filters')
-    for (let s of allSeries) {
+    for (let s of series) {
         seriesFilters.append(`
             <li>
-                <input type="checkbox" id="${s.uid}">
+                <input type="checkbox" id="${s.id}">
                 ${s.title}
             </li>
         `)
@@ -42,36 +33,27 @@ function populateSeries() {
         .prop('checked', true)
 }
 
-function getToggledSeries() {
+function getToggledSeries(): Series[] {
     return $('#series_filters')
         .find('input:checked')
         .toArray()
-        .map(item => getSeriesFromId(item.id))
+        .map(item => db.getSeriesFromId(item.id))
+        .filter(item => item)
+        .filterNotNull()
 }
 
 function seriesIsSelected(uid: string) {
-    let series = getSeriesFromId(uid)
+    let series = db.getSeriesFromId(uid)
     if (series === null) return false
     return series.title.includes("Star Trek:")
 }
 
-function getSeriesFromId(uid: string) {
-    return allSeries.filter(s => s.uid === uid)[0] || null
-}
-
 function showRandomEpisode() {
-    if (allEpisodes === undefined) {
-        console.error("Cannot pick random episode; episodes have not been read from file yet.")
-        return
-    }
     console.log("toggled: ", getToggledSeries())
-
-    let toggledSeriesIds = getToggledSeries().map(s => s.uid)
-    let episode = allEpisodes
-        .filter(e => toggledSeriesIds.includes(e.series.uid))
-        .random()
+    let toggledSeriesIds = getToggledSeries().map(series => series.id)
+    let episode = db.getRandomEpisode((episode) => toggledSeriesIds.includes(episode.series.id))
     console.log("Randomly picked episode: ", episode)
-    if (episode === undefined) return
+    if (episode === undefined || episode === null) return
     $('#episode').text(`${episode.season.title}: ${episode.title}`)
 }
 

@@ -1,6 +1,20 @@
+export declare class StarTrekDatabase {
+    private episodes;
+    private seasons;
+    private series;
+    constructor(onLoad: () => void);
+    getAllEpisodes(limit?: number | null): Array<Episode>;
+    getAllSeasons(limit?: number | null): Array<Season>;
+    getAllSeries(limit?: number | null): Array<Series>;
+    getEpisodeFromId(id: string): Episode | null;
+    getSeasonFromId(id: string): Season | null;
+    getSeriesFromId(id: string): Series | null;
+    getRandomEpisode(filter?: ((episode: Episode) => boolean) | null): Episode;
+}
 export interface Episode {
-    episodeId: string;
-    seasonId: string;
+    id: string;
+    season: Season;
+    series: Series;
     title: string;
     episodeNumber: number;
     stardateStart: number;
@@ -9,6 +23,21 @@ export interface Episode {
     yearEnd: number;
     usAirDate: number;
 }
-export declare class StarTrekDatabase {
-    getAllEpisodes(limit?: number | null): Promise<Episode>;
+export interface Season {
+    id: string;
+    series: Series;
+    title: string;
+    seasonNumber: number;
+    episodeCount: number;
+}
+export interface Series {
+    id: string;
+    title: string;
+    abbreviation: string;
+    productionYearStart: number;
+    productionYearEnd: number | null;
+    runYearStart: number;
+    runYearEnd: number | null;
+    seasonCount: number;
+    episodeCount: number;
 }
