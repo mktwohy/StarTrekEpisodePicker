@@ -6,15 +6,46 @@
     <title>Star Trek Episode Picker</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="lcars-style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@400;700&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script type="application/javascript" src="dist/main.js"></script>
 </head>
 
 <body>
-    <h1>Star Trek Random Episode Generator</h1>
-    <h2 id="episode">Some Episode</h2>
+    <div class="wrap">
+        <div class="left-frame-top">
+            <div class="panel-2">ABC</div>
+            <div class="panel-3">SEASON 01</div>
+        </div>
+        <div class="right-frame-top">
+            <div class="banner">Star Trek &#149; Episode Picker</div>
+            <div class="data-cascade-button-group">
+                <h2 id="episode">Some Episode</h2>
+                <div class="buttons">
+                    <a id="btn_new_episode" class="two-rows">New <br/>Episode</a>
+                </div>
+            </div>
+
+            <div class="top-corner-bg">
+                <div class="top-corner"></div>
+            </div>
+            <div class="bar-panel">
+                <div class="bar-1"></div>
+                <div class="bar-2"></div>
+                <div class="bar-3"></div>
+                <div class="bar-2"></div>
+                <div class="bar-5"></div>
+                <div class="bar-8"></div>
+                <div class="bar-5"></div>
+            </div>
+
+        </div>
+    </div>
+
     <div class="centered-column">
-        <button id="btn_new_episode">New Episode</button>
+
         <ul id="series_filters"></ul>
     </div>
 </body>
