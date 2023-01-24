@@ -23,7 +23,7 @@ function populateSeries() {
     for (let s of series) {
         seriesFilters.append(`
             <li>
-                <input type="checkbox" id="${s.id}">
+                <input type="checkbox" id="${s.id}" class="toggle-button">
                 ${s.title}
             </li>
         `)
