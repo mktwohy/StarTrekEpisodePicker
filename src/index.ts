@@ -61,18 +61,9 @@ function showRandomEpisode() {
     $('#episode').text(episode.title)
     $('#season').text(`SEASON ${leftPadZeros(episode.season.seasonNumber)}`)
     $('#series').text(episode.series.title.toUpperCase())
+    $('#episode_number').text(`EPISODE ${leftPadZeros(episode.episodeNumber)}`)
 }
 
 function leftPadZeros(num: number, targetLength: number = 2): string {
     return num.toString().padStart(targetLength, '0');
-}
-
-
-
-function doStuff() {
-
-}
-
-function main() {
-
 }
