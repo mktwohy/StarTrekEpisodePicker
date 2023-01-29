@@ -62,8 +62,14 @@ function showRandomEpisode() {
     $('#season').text(`SEASON ${leftPadZeros(episode.season.seasonNumber)}`)
     $('#series').text(episode.series.title.toUpperCase())
     $('#episode_number').text(`EPISODE ${leftPadZeros(episode.episodeNumber)}`)
+    $('#release_date').text(`${formatDate(episode.usAirDate)}`)
 }
 
 function leftPadZeros(num: number, targetLength: number = 2): string {
     return num.toString().padStart(targetLength, '0');
+}
+
+function formatDate(date: string): string {
+    let [year, month, day] = date.split('-')
+    return `${month}/${day}/${year}`
 }

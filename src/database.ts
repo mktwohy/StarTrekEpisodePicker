@@ -83,7 +83,7 @@ export interface Episode {
     stardateEnd: number
     yearStart: number
     yearEnd: number
-    usAirDate: number
+    usAirDate: string
 }
 
 export interface Season {
