@@ -1,5 +1,5 @@
 body {
-    touch-action: pan-y;
+    touch-action: pan-y pan-x pinch-zoom;
 }
 
 h1 {
