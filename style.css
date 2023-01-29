@@ -61,7 +61,6 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: background-color 0.1s, color 0.1s, opacity 0.1s;
 }
 
 .toggle-button input[type="checkbox"] {
