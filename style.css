@@ -18,6 +18,14 @@ button {
     flex-direction: column;
 }
 
+.left-column {
+    width: available;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+}
+
 #series_filters {
     list-style-type: none;
 }

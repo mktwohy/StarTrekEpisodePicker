@@ -49,11 +49,26 @@ function seriesIsSelected(uid: string) {
 }
 
 function showRandomEpisode() {
-    console.log("toggled: ", getToggledSeries())
     let toggledSeriesIds = getToggledSeries().map(series => series.id)
-    let episode = db.getRandomEpisode((episode) => toggledSeriesIds.includes(episode.series.id))
-    console.log("Randomly picked episode: ", episode)
+    let episode = db.getRandomEpisode(episode=>
+        toggledSeriesIds.includes(episode.series.id)
+    )
     if (episode === undefined || episode === null) return
-    $('#episode').text(`${episode.season.title}: ${episode.title}`)
+    $('#episode').text(episode.title)
+    $('#season').text(`SEASON ${leftPadZeros(episode.season.seasonNumber)}`)
+    $('#series').text(episode.series.title.toUpperCase())
 }
 
+function leftPadZeros(num: number, targetLength: number = 2): string {
+    return num.toString().padStart(targetLength, '0');
+}
+
+
+
+function doStuff() {
+
+}
+
+function main() {
+
+}
