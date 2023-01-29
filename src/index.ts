@@ -19,9 +19,10 @@ $(document).ready(() => {
 
 function populateSeries() {
     let series = db.getAllSeries()
-    let seriesFilters = $('#series_filters')
+    let seriesListElement = $('#series_filters')
+    seriesListElement.empty()
     for (let s of series) {
-        seriesFilters.append(`
+        seriesListElement.append(`
             <li>
                 <div class="toggle-button">
                     <input type="checkbox" id="${s.id}">
@@ -32,7 +33,7 @@ function populateSeries() {
             </li>
         `)
     }
-    seriesFilters
+    seriesListElement
         .find('li input')
         .prop('checked', true)
 }
