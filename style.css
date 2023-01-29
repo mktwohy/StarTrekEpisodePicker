@@ -1,3 +1,7 @@
+body {
+    touch-action: pan-y;
+}
+
 h1 {
     text-align: center;
 }
