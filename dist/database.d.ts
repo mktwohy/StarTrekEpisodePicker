@@ -21,7 +21,7 @@ export interface Episode {
     stardateEnd: number;
     yearStart: number;
     yearEnd: number;
-    usAirDate: string;
+    usAirDate: Date;
 }
 export interface Season {
     id: string;
@@ -36,8 +36,8 @@ export interface Series {
     abbreviation: string;
     productionYearStart: number;
     productionYearEnd: number | null;
-    runYearStart: number;
-    runYearEnd: number | null;
+    runDateStart: Date;
+    runDateEnd: Date | null;
     seasonCount: number;
     episodeCount: number;
 }

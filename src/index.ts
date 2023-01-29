@@ -70,7 +70,9 @@ function leftPadZeros(num: number, targetLength: number = 2): string {
     return num.toString().padStart(targetLength, '0');
 }
 
-function formatDate(date: string): string {
-    let [year, month, day] = date.split('-')
-    return `${month}/${day}/${year}`
+function formatDate(date: Date): String {
+    return date.toLocaleDateString(
+        "en-US",
+        {month: '2-digit', day: '2-digit', year: '2-digit'}
+    )
 }

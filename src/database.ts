@@ -39,7 +39,7 @@ export class StarTrekDatabase {
 
     getAllSeries(limit: number | null = null): Array<Series> {
         let compareFunc = (a: Series, b: Series) =>
-            a.productionYearStart - b.productionYearStart
+            a.runDateStart.getTime() - b.runDateStart.getTime();
 
         return getAll_(this.series, limit).sort(compareFunc)
     }
@@ -83,7 +83,7 @@ export interface Episode {
     stardateEnd: number
     yearStart: number
     yearEnd: number
-    usAirDate: string
+    usAirDate: Date
 }
 
 export interface Season {
@@ -100,8 +100,8 @@ export interface Series {
     abbreviation: string,
     productionYearStart: number,
     productionYearEnd: number | null,
-    runYearStart: number,
-    runYearEnd: number | null,
+    runDateStart: Date,
+    runDateEnd: Date | null,
     seasonCount: number,
     episodeCount: number
 }
@@ -117,7 +117,7 @@ function parseToEpisode(json: any, series: Series, season: Season): Episode {
         stardateEnd: json.stardateTo,
         yearStart: json.yearFrom,
         yearEnd: json.yearTo,
-        usAirDate: json.usAirDate
+        usAirDate: new Date(json.usAirDate)
     }
 }
 
@@ -138,9 +138,9 @@ function parseToSeries(json: any): Series {
         abbreviation: json.abbreviation,
         seasonCount: json.seasonsCount,
         episodeCount: json.episodesCount,
-        productionYearStart: json.productionStartYear,
-        productionYearEnd: json.productionEndYear,
-        runYearStart: json.originalRunStartDate,
-        runYearEnd: json.originalRunEndDate
+        productionYearStart: parseInt(json.productionStartYear),
+        productionYearEnd: parseInt(json.productionEndYear),
+        runDateStart: new Date(json.originalRunStartDate),
+        runDateEnd: new Date(json.originalRunEndDate)
     }
 }
